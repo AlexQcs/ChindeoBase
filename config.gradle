@@ -1,0 +1,40 @@
+ext {
+    def versions = [
+            build_tools: "29.0.2",
+            compile_sdk: 30,
+            min_sdk    : 22,
+            target_sdk : 22,
+            jdk        : JavaVersion.VERSION_1_8
+    ]
+    config = [
+            buildToolsVersion: versions.build_tools,
+            compileSdkVersion: versions.compile_sdk,
+            minSdkVersion    : versions.min_sdk,
+            targetSdkVersion : versions.target_sdk,
+            resConfigs       : [
+                    "en", "zh"
+            ],
+            abiFilters       : [
+                    "armeabi", "armeabi-v7a", "x86", "mips"
+            ],
+            compileOptions   : {
+                sourceCompatibility versions.jdk
+                targetCompatibility versions.jdk
+            },
+    ]
+    sign = [
+            keyAlias        : "yuyife",
+            keyPassword     : "yu445873700",
+            storePassword   : "yu445873700",
+            storeReleaseFile: "../keystore/yuyife.keystore",
+            storeDebugFile  : "../keystore/yuyife.keystore"
+    ]
+
+    sign_jks = [
+            keyAlias        : "yuyife",
+            keyPassword     : "yu445873700",
+            storePassword   : "yu445873700",
+            storeReleaseFile: "../keystore/yuyife.jks",
+            storeDebugFile  : "../keystore/yuyife.jks"
+    ]
+}

@@ -1,0 +1,61 @@
+<resources>
+<!--    根据xxhdpi适配-->
+<!--    ==============字体大小-->
+    <dimen name="ui_text_size_max_5">50dp</dimen>               <!--    特级5文本大小-->
+    <dimen name="ui_text_size_max_4">46dp</dimen>               <!--    特级4文本大小-->
+    <dimen name="ui_text_size_max_3">42dp</dimen>               <!--    特级3文本大小-->
+    <dimen name="ui_text_size_max_2">38dp</dimen>               <!--    特级2文本大小-->
+    <dimen name="ui_text_size_max_1">34dp</dimen>               <!--    特级1文本大小-->
+    <dimen name="ui_text_size_max">30dp</dimen>                 <!--    特级文本大小-->
+    <dimen name="ui_text_size_h1">26dp</dimen>                  <!--    1级文本大小-->
+    <dimen name="ui_text_size_h2">24dp</dimen>                  <!--    2级文本大小-->
+    <dimen name="ui_text_size_h3">22dp</dimen>                  <!--    3级文本大小-->
+    <dimen name="ui_text_size_h4">20dp</dimen>                  <!--    4级文本大小-->
+    <dimen name="ui_text_size_h5">18dp</dimen>                  <!--    5级文本大小-->
+    <dimen name="ui_text_size_h6">16dp</dimen>                  <!--    6级文本大小-->
+    <dimen name="ui_text_size_h7">14dp</dimen>                  <!--    7级文本大小-->
+    <dimen name="ui_text_size_h8">12dp</dimen>                  <!--    7级文本大小-->
+    <dimen name="ui_text_size_h9">10dp</dimen>                  <!--    7级文本大小-->
+<!--    ==============外边距-->
+    <dimen name="ui_dimen_margin_h1">10dp</dimen>               <!--    1级外边距-->
+    <dimen name="ui_dimen_margin_h2">15dp</dimen>               <!--    2级外边距-->
+    <dimen name="ui_dimen_margin_h3">20dp</dimen>               <!--    3级外边距-->
+    <dimen name="ui_dimen_margin_h4">25dp</dimen>               <!--    4级外边距-->
+    <dimen name="ui_dimen_margin_h5">30dp</dimen>               <!--    5级外边距-->
+    <dimen name="ui_dimen_margin_h6">35dp</dimen>               <!--    6级外边距-->
+    <dimen name="ui_dimen_margin_h7">40dp</dimen>               <!--    7级外边距-->
+    <dimen name="ui_dimen_margin_h8">45dp</dimen>               <!--    8级外边距-->
+    <dimen name="ui_dimen_margin_h9">50dp</dimen>               <!--    9级外边距-->
+<!--    ==============内边距-->
+    <dimen name="ui_dimen_padding_h1">10dp</dimen>              <!--    1级内边距-->
+    <dimen name="ui_dimen_padding_h2">15dp</dimen>              <!--    2级内边距-->
+    <dimen name="ui_dimen_padding_h3">20dp</dimen>              <!--    3级内边距-->
+    <dimen name="ui_dimen_padding_h4">25dp</dimen>              <!--    4级内边距-->
+    <dimen name="ui_dimen_padding_h5">30dp</dimen>              <!--    5级内边距-->
+    <dimen name="ui_dimen_padding_h6">35dp</dimen>              <!--    6级内边距-->
+    <dimen name="ui_dimen_padding_h7">40dp</dimen>              <!--    6级内边距-->
+    <dimen name="ui_dimen_padding_h8">45dp</dimen>              <!--    6级内边距-->
+    <dimen name="ui_dimen_padding_h9">50dp</dimen>              <!--    6级内边距-->
+<!--    ==============普通-->
+    <dimen name="ui_dimen_common_small">3dp</dimen>             <!--    普通间距3-->
+    <dimen name="ui_dimen_common">5dp</dimen>                   <!--    普通间距5-->
+    <dimen name="ui_dimen_common_large">8dp</dimen>             <!--    普通间距8-->
+    <dimen name="ui_dimen_title">88dp</dimen>                   <!--    标题行高-->
+    <dimen name="ui_dimen_radius">5dp</dimen>                   <!--    圆角大小-->
+    <dimen name="ui_dimen_stroke">1dp</dimen>                   <!--    边框粗细-->
+    <dimen name="ui_dimen_line">1dp</dimen>                     <!--    分割线粗细-->
+<!--    ==============普通模块-->
+    <dimen name="ui_dimen_vertical_model">16dp</dimen>          <!--    上下模块间隔-->
+    <dimen name="ui_dimen_horizontal_model">16dp</dimen>        <!--    左右模块间隔-->
+<!--    ==============行高-->
+    <dimen name="ui_dimen_height_h1">120dp</dimen>              <!--    1级行高-->
+    <dimen name="ui_dimen_height_h2">110dp</dimen>              <!--    2级行高-->
+    <dimen name="ui_dimen_height_h3">100dp</dimen>              <!--    3级行高-->
+    <dimen name="ui_dimen_height_h4">90dp</dimen>               <!--    4级行高-->
+    <dimen name="ui_dimen_height_h5">80dp</dimen>               <!--    5级行高-->
+    <dimen name="ui_dimen_height_h6">70dp</dimen>               <!--    6级行高-->
+    <dimen name="ui_dimen_height_h7">60dp</dimen>               <!--    7级行高-->
+    <dimen name="ui_dimen_height_h8">50dp</dimen>               <!--    8级行高-->
+    <dimen name="ui_dimen_height_h9">40dp</dimen>               <!--    9级行高-->
+
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+
+    <!--公共-->
+    <string name="resource_public_again">Again</string>
+    <string name="resource_public_done">Done</string>
+    <string name="resource_public_more">More</string>
+    <string name="resource_public_on">ON</string>
+    <string name="resource_public_off">OFF</string>
+    <string name="resource_public_close">Close</string>
+    <string name="resource_public_cancel">Cancel</string>
+    <string name="resource_public_confirm">Confirm</string>
+    <string name="resource_public_yes">Yes</string>
+    <string name="resource_public_no">No</string>
+    <string name="resource_public_new">New</string>
+    <string name="resource_public_modify">Modify</string>
+    <string name="resource_public_query">Query</string>
+    <string name="resource_public_delete">Delete</string>
+    <string name="resource_public_submit">Submit</string>
+    <string name="resource_public_copy">Copy</string>
+    <string name="resource_public_save">Save</string>
+    <string name="resource_public_all">All</string>
+    <string name="resource_public_read">Read</string>
+    <string name="resource_public_unread">Unread</string>
+    <string name="resource_public_wait">Wait..</string>
+    <string name="resource_public_upgrade_now">Upgrade Now</string>
+    <string name="resource_public_ok">OK</string>
+    <string name="resource_public_edit">Edit</string>
+    <string name="resource_public_reset">Reset</string>
+    <string name="resource_public_back">Back</string>
+    <string name="resource_public_exit">Exit</string>
+    <string name="resource_public_next">Next</string>
+    <string name="resource_public_share">Share</string>
+    <string name="resource_public_setting">Settings</string>
+    <string name="resource_public_setting_ok">Settings Done</string>
+    <string name="resource_public_setting_no">Net Set</string>
+    <string name="resource_public_no_data">No data</string>
+
+
+
+    <string name="resource_public_know">I know</string>
+    <string name="resource_public_input">Please input</string>
+    <string name="resource_public_select">Please select</string>
+    <string name="resource_public_status">Status：</string>
+
+
+</resources>

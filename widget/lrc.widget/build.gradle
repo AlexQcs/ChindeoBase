@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+android {
+    compileSdkVersion config.compileSdkVersion
+    buildToolsVersion config.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions config.compileOptions
+
+    buildFeatures {
+        dataBinding = true
+    }
+
+
+}
+
+dependencies {
+    implementation deps.glide.runtime
+    implementation project(path: ':base:lazylibs')
+    // lrc libs
+
+    implementation deps.androidx.material
+    implementation deps.androidx.appcompat
+    implementation deps.androidx.constraintlayout
+    implementation deps.baseRecyclerViewAdapterHelper
+    implementation deps.androidx.viewpager2
+}

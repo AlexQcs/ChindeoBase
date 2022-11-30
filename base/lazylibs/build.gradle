@@ -1,0 +1,85 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion config.compileSdkVersion
+    buildToolsVersion config.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        dataBinding = true
+    }
+
+    resourcePrefix 'lazylibs_'
+    compileOptions config.compileOptions
+}
+
+dependencies {
+
+    // support
+    api deps.androidx.v4
+    api deps.androidx.material
+    api deps.androidx.appcompat
+    api deps.androidx.constraintlayout
+    // extra
+    api deps.multitype.java
+
+//    implementation deps.kotlin.reflect
+    api deps.kotlin.stdlib_jdk7
+    api deps.kotlin.coroutines
+
+    api deps.rxjava
+    api deps.rxandroid
+    api deps.androidx.annotation
+
+    api deps.okhttp.runtime
+    api deps.okhttp.urlconnection
+    api deps.okhttp.logging_interceptor
+    api (deps.retrofit.runtime) {
+        // exclude dependencies module okHttp
+        exclude module: "okhttp"
+    }
+    api deps.retrofit.adapter_rxjava
+    api deps.retrofit.adapter_rxjava2
+
+    api deps.fastjson
+    api deps.logger
+
+    api deps.trello.rxlifecycle_components
+    api deps.trello.lifecycle_extensions
+    implementation deps.aliyunPlayer
+    implementation deps.eventbus
+    api deps.lifecycle.viewmodel_ktx
+    api 'androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-alpha01'
+    //mmkv数据持久化
+    api deps.tencent.mmkv
+
+    //线程总线 消息事件
+    api 'io.github.jeremyliao:live-event-bus-x:1.8.0'
+    //弹窗
+    api 'com.github.li-xiaojun:XPopup:2.2.5'
+    //录音
+    api 'com.github.zhaolewei:ZlwAudioRecorder:v1.08'
+    //蓝牙连接
+    api 'com.clj.fastble:FastBleLib:2.3.4'
+
+    //api 'com.github.CarGuo:GSYRecordWave:2.0.2'
+
+}

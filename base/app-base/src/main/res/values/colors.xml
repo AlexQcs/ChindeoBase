@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <color name="colorPrimary">#EB5D82</color>
+    <color name="colorPrimarySecond">#F39BB2</color>
+    <color name="colorPrimaryDark">#B3425F</color>
+    <color name="colorAccent">#fff3729b</color>
+
+    <color name="uiColorTransparency">@android:color/transparent</color>  <!--透明-->
+    <color name="shadowColor">#989EAD</color>
+
+    <color name="gradient_start" >#FAC4D5</color>
+    <color name="gradient_center">#F694B3</color>
+    <color name="gradient_end">#f3729b</color>
+</resources>

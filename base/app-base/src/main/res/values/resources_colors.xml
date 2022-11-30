@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Guard 04BE02 普通  1AFA29 按下 -->
+    <!--<color name="colorPrimary">#04BE02</color>-->
+    <!--<color name="colorPrimaryDark">#03ba02</color>-->
+    <!--<color name="colorAccent">#ee79f4</color>-->
+
+    <!--<color name="colorPrimary">#9C76E4</color>-->
+    <!--<color name="colorPrimaryDark">#9C76E4</color>-->
+    <!--<color name="colorAccent">#ee79f4</color>-->
+
+    <!--    <color name="colorPrimary">#7F70C0</color>-->
+    <!--    <color name="colorPrimaryDark">#7E65AA</color>-->
+    <!--    <color name="colorAccent">#ee79f4</color>-->
+
+    <!--UI规范-->
+    <color name="uiColorWhite">#FFFFFF</color>                    <!--纯白-->
+    <color name="uiColorBlack">#707070</color>                    <!--淡黑-->
+    <!--<color name="uiColorPrimary">#04BE02</color>                  主要色-->
+    <!--<color name="uiColorPrimary_">#5604BE02</color>               主要色按下-->
+    <color name="uiColorPrimary">#EB5D82</color>                 <!-- 主要色-->
+    <color name="uiColorPrimary_">#88374C</color>              <!-- 主要色按下-->
+    <color name="uiColorSecondPrimary">#F388A4</color>        <!-- 主要色二级-->
+    <color name="uiColorPrimaryLight">#fff7ebf4</color>           <!-- 主要色浅色-->
+    <color name="uiColorLittle">#fff7ebf4</color>                   <!--少量的色-->
+    <color name="uiColorLittle_">#95EF4F4F</color>                <!--少量的色按下-->
+    <color name="uiBackground">#E7E7E7</color>                    <!--背景色-->
+    <color name="uiBackgroundPrimary">#F2F2F2</color>             <!--主要底色-->
+    <color name="uiBackgroundPrimaryAbove">#95FFFFFF</color>      <!--主要底色之上-->
+    <color name="uiBackgroundBar">#F8F8F8</color>                 <!--标题、tab背景等-->
+    <color name="uiBackgroundLineModel">#05000000</color>         <!--分割模块标题背景-->
+    <color name="uiBackgroundLine">#70000000</color>              <!--分割线-->
+    <color name="uiBackgroundLine_">#50000000</color>             <!--分割线按下-->
+
+    <color name="uiTextColorBlack">#000000</color>         <!--  纯黑色文本（当背景色为白色时使用）-->
+    <color name="uiTextColorWhite">#FFFFFF</color>          <!-- 纯白色文本（当背景色为主要色时使用）-->
+    <color name="uiTextColorPrimary">#FF4081</color>         <!--点缀-->
+    <color name="uiTextColorH1">#333333</color>              <!-- 一级-->
+    <color name="uiTextColorH2">#666666</color>              <!-- 2级 -->
+    <color name="uiTextColorH3">#888888</color>              <!-- 3级 -->
+    <color name="uiTextColorH4">#999999</color>              <!-- 4级 -->
+    <color name="uiTextColorH5">#B2B2B2</color>              <!-- 5级 -->
+    <color name="uiTextColorH6">#CCCCCC</color>              <!-- 6级 -->
+
+    <color name="colorConstant">#3036b643</color>                   <!--常量色-->
+    <color name="colorFiveStar">#affdd6</color>                     <!--5星布局-->
+
+
+    <color name="color63">#333333</color>
+    <color name="color66">#666666</color>
+    <color name="color69">#999999</color>
+    <color name="colorF5">#F5F5F5</color>
+    <color name="colorF6">#F6F6F6</color>
+    <color name="colorF9">#F9F9F9</color>
+    <color name="colorED">#FFEDEDED</color>
+    <color name="colorE1">#E1E1E1</color>
+    <color name="dividerColor">#FFEEEEEE</color>
+    <color name="colorRed">#E53B3B</color>
+
+    <color name="txtPressColor">#999999</color>
+    <color name="hintColor">#B5B4B4</color>
+    <color name="themeColor">#ffffff</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black">#242428</color>
+    <color name="text_h1">#242428</color>
+    <color name="text_h2">#63636D</color>
+    <color name="text_h3">#B5B5BE</color>
+
+    <color name="nurses_shadow_title_bg">#2629C5</color>
+
+</resources>

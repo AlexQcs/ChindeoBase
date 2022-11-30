@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="accessibility_service_description">应用自动安装服务</string>
+
+    <string name="refresh_header_pulling">下拉可以刷新</string>
+    <string name="refresh_header_refreshing">正在刷新…</string>
+    <string name="refresh_header_loading">正在加载…</string>
+    <string name="refresh_header_release">释放立即刷新</string>
+    <string name="refresh_header_secondary">释放进入二楼</string>
+    <string name="refresh_header_finish">刷新完成</string>
+    <string name="refresh_header_failed">刷新失败</string>
+    <string name="refresh_header_update">上次更新 M-d HH:mm</string>
+    <string name="refresh_footer_pulling">上拉加载更多</string>
+    <string name="refresh_footer_release">释放立即加载</string>
+    <string name="refresh_footer_loading">正在加载…</string>
+    <string name="refresh_footer_refreshing">正在刷新…</string>
+    <string name="refresh_footer_finish">加载完成</string>
+    <string name="refresh_footer_failed">加载失败</string>
+    <string name="refresh_footer_nothing">没有更多数据了</string>
+    <string name="current_already_new">当前版本已经是最新</string>
+    <string name="network_unavailable">数据连接错误，请检查网络</string>
+    <string name="click_reload">刷新</string>
+    <string name="click_check_network">诊断网络</string>
+    <string name="no_data_tips">暂无数据</string>
+    <string name="cancel">取消</string>
+    <string name="define">确定</string>
+
+    <string name="status_un_know">正在检查</string>
+    <string name="status_un_install">待安装</string>
+    <string name="status_installed">已经是最新版本</string>
+    <string name="status_downloading">正在下载</string>
+    <string name="status_download_finish">下载完成</string>
+    <string name="status_test">测试包自行安装</string>
+
+    <string name="web_rtc_cancel">取消</string>
+    <string name="web_rtc_agree">接听</string>
+    <string name="web_rtc_trans">转接</string>
+
+    <string name="web_rtc_toggle">显示/隐藏</string>
+
+    <string name="web_rtc_switch_voice">切换语音</string>
+    <string name="web_rtc_switch_mute">静音</string>
+    <string name="web_rtc_switch_handfree">免提</string>
+    <string name="web_rtc_switch_merge">合并</string>
+
+    <string name="web_rtc_call_in_tip_video">邀请你视频通话</string>
+    <string name="web_rtc_call_in_tip_voice">邀请你语音通话</string>
+
+    <string name="web_rtc_call_out_tip">正在等待对方接受邀请..</string>
+
+    <string name="webrtc_chat_refuse">拒接</string>
+    <string name="webrtc_chat_hang_up">挂断</string>
+    <string name="webrtc_chat_hang_up_all">挂断全部</string>
+    <string name="webrtc_switch_voice">切到语音</string>
+    <string name="webrtc_switch_camera">切换摄像头</string>
+    <string name="webrtc_close_camera">关闭摄像头</string>
+    <string name="webrtc_open_camera">开启摄像头</string>
+
+
+    <string name="settings_label_host_api">接口环境域名</string>
+    <string name="settings_label_host_web_socket">推送环境域名</string>
+    <string name="settings_label_host_device_id">设备MAC地址</string>
+    <string name="settings_label_host_hash">应用MD5</string>
+
+</resources>

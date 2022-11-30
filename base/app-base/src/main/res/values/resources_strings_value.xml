@@ -1,0 +1,9 @@
+<resources>
+    <!--值-->
+    <string name="resource_label_language">Language</string>
+    <string name="resource_label_language_zh">Chinese</string>
+    <string name="resource_label_language_en">English</string>
+    <string name="digits_account_edit_text">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@.</string>
+    <string name="digits_password_edit_text">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+
+</resources>

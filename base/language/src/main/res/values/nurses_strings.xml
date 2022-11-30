@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="menu_tab_bed_plan">床位图</string>
+    <string name="menu_tab_message_call">信息呼叫</string>
+    <string name="menu_tab_doctor_voice">医生录音</string>
+    <string name="menu_tab_missed_call">未接电话</string>
+    <string name="menu_tab_device_status">设备状态</string>
+    <string name="menu_tab_broadcast">广播</string>
+    <string name="menu_tab_remind">消息提醒</string>
+    <string name="menu_tab_call_record">通话录音</string>
+    <string name="menu_tab_settings">病区设置</string>
+    <string name="menu_tab_remote_open_door">远程开门</string>
+    <string name="menu_tab_visit_appointment">探视预约</string>
+    <string name="menu_tab_call_host">呼叫主机</string>
+
+    <string name="week">星期</string>
+    <string name="bed_status">床位状态</string>
+
+    <string name="bed_function_voice_call">语音呼叫</string>
+    <string name="bed_function_video_call">视频呼叫</string>
+    <string name="bed_function_member_info">患者信息</string>
+    <string name="bed_function_message_call">信息呼叫</string>
+
+    <string-array name="bed_function_list">
+        <item>@string/bed_function_voice_call</item>
+        <item>@string/bed_function_video_call</item>
+        <item>@string/bed_function_member_info</item>
+        <item>@string/bed_function_message_call</item>
+    </string-array>
+
+    <string name="bed_setting_status_emergency">应急</string>
+    <string name="bed_setting_status_stay_bed">留床</string>
+    <string name="bed_setting_status_stay_view">留观</string>
+
+    <string-array name="bed_setting_status_list">
+        <item>@string/bed_setting_status_emergency</item>
+        <item>@string/bed_setting_status_stay_bed</item>
+        <item>@string/bed_setting_status_stay_view</item>
+    </string-array>
+    <string name="message_input_hint">请输入内容...</string>
+
+</resources>

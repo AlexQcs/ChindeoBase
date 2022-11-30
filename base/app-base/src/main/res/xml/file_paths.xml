@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+    <!--7.0后需要声明访问目录，如跳转到安装-->
+
+    <!--Context.getFilesDir() 位于/data/data/安装目录-->
+    <files-path
+        name="internalPath"
+        path="chindeo_app" />
+    <!--Context.getCacheDir()-->
+    <cache-path
+        name="cachePath"
+        path="chindeo_app" />
+    <!--Environment.getExternalStorageDirectory()-->
+    <external-path
+        name="externalPath"
+        path="chindeo_app" />
+    <!--Context.getExternalFilesDir(null)-->
+    <external-files-path
+        name="externalFPath"
+        path="chindeo_app" />
+</paths>

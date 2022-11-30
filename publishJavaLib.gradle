@@ -1,0 +1,33 @@
+apply plugin: "maven-publish"
+// 指定编码
+// 或者以下写法
+//plugins {
+//  id 'groovy'
+//  id 'maven-publish'
+//}
+
+
+
+
+afterEvaluate {
+    publishing {
+//    配置maven-publishing插件的输出物
+        publications {
+            maven(MavenPublication) {
+                groupId = 'com.chindeo.android'
+                artifactId = 'modify'
+                version = '1.0.0'
+            }
+        }
+        repositories {
+            maven {
+                url = uri('../repo')
+            }
+        }
+    }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
